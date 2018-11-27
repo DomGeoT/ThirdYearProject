@@ -1,5 +1,5 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
-
+import json
 query = '''
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -18,9 +18,13 @@ PREFIX d: <http://dbpedia.org/ontology/>
 
 SELECT * 
 WHERE {
-    ?comp dbpedia2:symbol "AMZN"^^rdf:langString.
-}
+    ?owner dbp:owner ?comp1 .
+    ?owner dbp:owner ?comp2 .
+    ?comp1 dbpedia2:symbol ?comp1Symbol .
+    ?comp2 dbpedia2:symbol ?comp2Symbol .
 
+   FILTER (?comp1 != ?comp2) .
+}
 
 '''
 
@@ -30,7 +34,10 @@ def runQuery():
 
     sparql.setQuery(query)  # the previous query as a literal string
 
-    return sparql.query().convert()
+    with open("results.json", "w+") as f:
+        json.dump(sparql.query().convert(), f)
+
+
 
 
 print(runQuery())
