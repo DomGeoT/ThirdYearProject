@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db3bbb99-20d6-4278-8c0a-b22835c67113" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CollectorSchedueller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query.rq" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CollectorV2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectorSchedueller.py" beforeDir="false" afterPath="$PROJECT_DIR$/CollectorSchedueller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCollector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dbpedia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dbpedia/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dbpedia/OntologyCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Dbpedia/OntologyCollector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dbpedia/uriSymbolPairs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Dbpedia/uriSymbolPairs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols.txt" beforeDir="false" afterPath="$PROJECT_DIR$/symbols.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +19,8 @@
       <file leaf-file-name="DataCollector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataCollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+            <state relative-caret-position="833">
+              <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -35,21 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-12-20.ttl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/2018-12-20.ttl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-947697" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectorSchedueller.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CollectorSchedueller.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CollectorSchedueller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="380">
+              <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="symbols.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symbols.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -76,13 +71,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/data/AMZN.csv" />
-        <option value="$PROJECT_DIR$/symbols.txt" />
         <option value="$PROJECT_DIR$/theoscrape.py" />
         <option value="$PROJECT_DIR$/CollectorV2.py" />
         <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/output.ttl" />
-        <option value="$PROJECT_DIR$/CollectorSchedueller.py" />
         <option value="$PROJECT_DIR$/DataCollector.py" />
+        <option value="$PROJECT_DIR$/symbols.txt" />
+        <option value="$PROJECT_DIR$/CollectorSchedueller.py" />
       </list>
     </option>
   </component>
@@ -105,11 +100,6 @@
             <path>
               <item name="AlphaVanatgeDataCollector" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlphaVanatgeDataCollector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlphaVanatgeDataCollector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlphaVanatgeDataCollector" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,6 +229,14 @@
       <option name="presentableId" value="Default" />
       <updated>1541587782185</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated data collector to store data as RDF triples&#10;data is now collected for the previous 5 days&#10;intended to run CollectorSchedueller.py on a saturday&#10;Due to alpha vantage request limits limited to approximately 250 symbols">
+      <created>1545324970630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545324970630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -294,6 +292,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated data collector to store data as RDF triples&#10;data is now collected for the previous 5 days&#10;intended to run CollectorSchedueller.py on a saturday&#10;Due to alpha vantage request limits limited to approximately 250 symbols" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated data collector to store data as RDF triples&#10;data is now collected for the previous 5 days&#10;intended to run CollectorSchedueller.py on a saturday&#10;Due to alpha vantage request limits limited to approximately 250 symbols" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -306,13 +308,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theoscrape.py" />
     <entry file="file://$PROJECT_DIR$/query.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -538,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symbols.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/AMZN.ttl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -588,29 +576,39 @@
     <entry file="file://$PROJECT_DIR$/2018-12-20.ttl.ttl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollectorSchedueller.py">
+    <entry file="file://$PROJECT_DIR$/data/2018-12-20.ttl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-947697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symbols.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataCollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+        <state relative-caret-position="833">
+          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/2018-12-20.ttl">
+    <entry file="file://$PROJECT_DIR$/CollectorSchedueller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947697" />
+        <state relative-caret-position="380">
+          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

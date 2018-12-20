@@ -18,6 +18,10 @@ for company in companies:
 
     try:
         print("Collecting data for", company)
+        lastAPICall = datetime.datetime.now()
         DataCollector.collectStockData(company, storeName)
     except:
         print("WARNING error caught when executing data collection for", company)
+        log = open('log.txt', 'a+')
+        log.write(str("WARNING error caught when executing data collection for" + str(company) + " on " + str(datetime.datetime.now()) + "\n"))
+        log.close()

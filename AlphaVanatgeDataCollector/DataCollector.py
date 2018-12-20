@@ -1,6 +1,4 @@
 import urllib.request
-import datetime
-import shutil
 import os
 import time
 
@@ -23,9 +21,6 @@ def retry(delay, attempts):
         return wrapped
     return wrapper
 
-
-def move(src, dest):
-    shutil.move(src, dest)
 
 @retry(60, 5)
 def requestStockData(symbol):
@@ -116,7 +111,3 @@ def loadSymbols():
 def collectStockData(symbol, storeName):
     requestStockData(symbol)
     storeStockData(symbol, storeName)
-
-
-
-
