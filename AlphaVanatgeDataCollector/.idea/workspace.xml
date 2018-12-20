@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db3bbb99-20d6-4278-8c0a-b22835c67113" name="Default" comment="" />
+    <list default="true" id="db3bbb99-20d6-4278-8c0a-b22835c67113" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectorSchedueller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query.rq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectorV2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCollector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/query.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dbpedia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dbpedia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dbpedia/OntologyCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Dbpedia/OntologyCollector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dbpedia/uriSymbolPairs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Dbpedia/uriSymbolPairs.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +26,8 @@
       <file leaf-file-name="DataCollector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataCollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="17">
+              <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -23,50 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectorV2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CollectorV2.py">
+      <file leaf-file-name="2018-12-20.ttl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/2018-12-20.ttl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+            <state relative-caret-position="-947697" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectorSchedueller.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CollectorSchedueller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4505">
-              <caret column="265775" selection-start-column="265775" selection-end-column="265775" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/json/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3009">
-              <caret line="179" selection-start-line="179" selection-end-line="179" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="query.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35394">
-              <caret line="2082" column="32" selection-start-line="2082" selection-start-column="32" selection-end-line="2082" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbols.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symbols.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -86,15 +69,20 @@
       <find>2018</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/data/AMZN.csv" />
         <option value="$PROJECT_DIR$/symbols.txt" />
         <option value="$PROJECT_DIR$/theoscrape.py" />
-        <option value="$PROJECT_DIR$/DataCollector.py" />
         <option value="$PROJECT_DIR$/CollectorV2.py" />
         <option value="$PROJECT_DIR$/data.json" />
+        <option value="$PROJECT_DIR$/output.ttl" />
+        <option value="$PROJECT_DIR$/CollectorSchedueller.py" />
+        <option value="$PROJECT_DIR$/DataCollector.py" />
       </list>
     </option>
   </component>
@@ -104,11 +92,13 @@
     <option name="width" value="2800" />
     <option name="height" value="1760" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,11 +106,15 @@
               <item name="AlphaVanatgeDataCollector" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlphaVanatgeDataCollector" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlphaVanatgeDataCollector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlphaVanatgeDataCollector" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,7 +140,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CollectorV2">
+  <component name="RunManager" selected="Python.CollectorSchedueller">
+    <configuration name="CollectorSchedueller" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlphaVanatgeDataCollector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CollectorSchedueller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="CollectorV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlphaVanatgeDataCollector" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,12 +217,14 @@
       <item itemvalue="Python.DataCollector" />
       <item itemvalue="Python.theoscrape" />
       <item itemvalue="Python.CollectorV2" />
+      <item itemvalue="Python.CollectorSchedueller" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CollectorSchedueller" />
+        <item itemvalue="Python.DataCollector" />
         <item itemvalue="Python.CollectorV2" />
         <item itemvalue="Python.theoscrape" />
-        <item itemvalue="Python.DataCollector" />
       </list>
     </recent_temporary>
   </component>
@@ -229,83 +243,69 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15707515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15945017" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32696897" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293556" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293556" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32696897" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293556" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3293556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293556" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976135" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="JSON Viewer" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293556" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CollectorSchedueller.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35394">
-          <caret line="2082" column="32" selection-start-line="2082" selection-start-column="32" selection-end-line="2082" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symbols.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollectorV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="171" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataCollector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4505">
-          <caret column="265775" selection-start-column="265775" selection-end-column="265775" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3043">
@@ -520,7 +520,6 @@
     <entry file="file://$PROJECT_DIR$/MSFT/2018-11-07.json" />
     <entry file="file://$PROJECT_DIR$/AAPL/2018-11-07.json" />
     <entry file="file://$PROJECT_DIR$/AMZN/2018-11-07.json" />
-    <entry file="file://$PROJECT_DIR$/query.csv" />
     <entry file="file://$PROJECT_DIR$/data/MSFT.csv" />
     <entry file="file://$PROJECT_DIR$/data/APPL.csv" />
     <entry file="file://$PROJECT_DIR$/data/AMZN.csv" />
@@ -531,12 +530,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/theoscrape.py" />
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret column="265775" selection-start-column="265775" selection-end-column="265775" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/symbols.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/AMZN.ttl">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/query.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -545,20 +555,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theoscrape.py" />
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4505">
-          <caret column="265775" selection-start-column="265775" selection-end-column="265775" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/query.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataCollector.py">
+    <entry file="file://$PROJECT_DIR$/../Dbpedia/OntologyCollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="6" selection-end-line="18" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -571,6 +576,41 @@
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-12-20.ttl.ttl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollectorSchedueller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCollector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2018-12-20.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-947697" />
       </provider>
     </entry>
   </component>

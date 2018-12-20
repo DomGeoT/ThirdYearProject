@@ -1,0 +1,12 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbpedia2: <http://dbpedia.org/property/>
+
+SELECT * WHERE 
+{
+
+	?datapoint1 xsd:date '2018-12-19' .
+	?datapoint1 xsd:time '13:13:00' .
+	?datapoint1 dbpedia2:symbol ?symbol . 
+	
+}

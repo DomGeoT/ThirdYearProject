@@ -1,4 +1,3 @@
-import urllib
 import time
 
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -14,7 +13,7 @@ def retry(delay, attempts):
                 except Exception as e:
                     print(str(e))
                     print("failure after attempt", attempts, "- retrying in...", delay)
-                    time.sleep(delay)
+                    time.sleep(delay * (i + 1))
         return wrapped
     return wrapper
 
@@ -70,15 +69,13 @@ def buildQuery(companySymbol, companyName):
     return query
 
 
-def storeResults(resultFileName, results):
-    with open(resultFileName, "w+") as f:
-        for result in results:
-            f.write(str(result) + "\n")
+def storeResult(resultFileName, result):
+    with open(resultFileName, "a+") as f:
+        f.write(str(result) + "\n")
 
 
 def findCompanies():
     companySymbols = loadCompanyData()
-    results = []
 
     for count, data in companySymbols.iterrows():
         query = buildQuery(data['Symbol'], data['Name'].split(",")[0])
@@ -87,9 +84,8 @@ def findCompanies():
         if len(result['results']['bindings']) > 0:
             for r in result['results']['bindings']:
                 print(data['Symbol'], r)
-                results.append(str(data['Symbol'] + "|" + str(r)))
+                storeResult("uriSymbolPairs.csv", r)
         else:
             print(data['Symbol'], "no results")
-    storeResults("uriSymbolPairs.csv", results)
 
 findCompanies()
